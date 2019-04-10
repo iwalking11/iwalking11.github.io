@@ -345,6 +345,7 @@ const ThemeConsumer = ThemeContext.Consumer;
 #### 1. 提供者(Provider)模式
 
 ##### 1. 创建一个Context
+
 ```
 export const TabsContext = React.createContext();
 ```
@@ -373,6 +374,7 @@ export default TabsProvider;
 ```
 
 ##### 3. 实现Tabs组件
+
 ```
 class Tabs extends React.Component {
 
@@ -418,6 +420,7 @@ export const TabItem = itemValue => (
 ```
 
 ##### 5. 利用Provider包裹Tabs组件以及其子组件使用
+
 ```
 class App extends React.Component {
   render() {
@@ -436,6 +439,7 @@ class App extends React.Component {
 #### 2. render props 模式
 上面的方法中，我们在Context.consumer中就已经使用过render props模式了，能不能不用Context来实现呢
 ##### 1. Tabs组件
+
 ```
 class Tabs extends React.component {
   state = {
@@ -454,6 +458,7 @@ export default Tabs;
 ```
 
 ##### 2. TabItem组件
+
 ```
 export const TabItem = (value, selected, handleClick) => {
   const onItemClick = () => {
@@ -472,6 +477,7 @@ export const TabItem = (value, selected, handleClick) => {
 ```
 
 ##### 3. 使用方式
+
 ```
 <Tabs value='a'>
   {(selected, handleClick) => (
@@ -499,6 +505,7 @@ export const TabItem = (value, selected, handleClick) => {
 
 #### 3. 组合模式
 ##### 1. 先实现TabItem组件
+
 ```
 export const TabItem = {
   value, active, handleClick, children
@@ -519,6 +526,7 @@ export const TabItem = {
 ```
 
 ##### 2.再实现Tabs组件
+
 ```
 class Tabs extends React.component {
 
@@ -559,6 +567,7 @@ class Tabs extends React.component {
 
 ##### 3. Tabs组件使用方式
 最终的使用效果和我们最开始的需求一致
+
 ```
 <Tabs value='a'>
   <Tabs.TabItem value='a'>a</Tabs.TabItem>
@@ -566,6 +575,7 @@ class Tabs extends React.component {
   <Tabs.TabItem value='c'>c</Tabs.TabItem>
 </Tabs>
 ```
+
 #### 4. 3种模式比较
 1. Provider模式  
 我们使用新的 Context API来保存一个全局的value对象在Provider中
