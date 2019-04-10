@@ -341,13 +341,16 @@ const ThemeConsumer = ThemeContext.Consumer;
 像上面这样，Tabs 和 TabItem 不通过表面的 props 传递也能心有灵犀，二者之间有某种神秘的“组合”，就是我们所说的“组合组件”。
 
 ### 实现方式
+
 #### 1. 提供者(Provider)模式
+
 ##### 1. 创建一个Context
 ```
 export const TabsContext = React.createContext();
 ```
 
 ##### 2. 创建Provider
+
 ```
 class TabsProvider extends Component {
   state = {
@@ -357,9 +360,9 @@ class TabsProvider extends Component {
     return (
       <TabsContext.Provider value={{
         selected: this.state.selected,
-        handleClick: value => this.setState({
+        handleClick: value => {this.setState({
           selected: value
-        })
+        })}
       }}>
         {this.props.children}
       </TabsContext.Provider>
