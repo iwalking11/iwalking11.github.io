@@ -2,21 +2,18 @@
 layout:     post
 title:      "正则表达式"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2019-01-29 12:00:00
+date:       2018-03-7 12:00:00
 author:     "iwalking11"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
+		- js
     - 正则
     - Meta
 ---
 
 > “Yeah It's on. ”
 
-
-<font size=4>
-
-[toc]
 
 ## 引言
 - 第1-2章介绍了正则如何匹配字符和位置。
@@ -339,7 +336,5 @@ ResExp.prototype.exec
 阮一峰的js教程  
 [正则表达式30分钟入门教程](https://deerchao.net/tutorials/regex/regex.htm) 看的第一篇完整正则教程，虽说是十多年前的教程，但是写的很详细
 
-
-</font>
 
 
