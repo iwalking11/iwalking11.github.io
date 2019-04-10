@@ -13,9 +13,7 @@ tags:
 
 
 
-<font size=4>
 
-[toc]
 
 ## 1. 现代 js 框架存在的根本原因
 现在前端框架非常多了，如果让我们回答 “为什么要用前端框架” 这个问题，你觉得是下面这些原因吗？
@@ -596,5 +594,3 @@ class Tabs extends React.component {
 - [如何掌握高级react设计模式: Render Props](https://zhuanlan.zhihu.com/p/43457891)
 - [揭密React setState](https://zhuanlan.zhihu.com/p/43522965)
 
-
-</font>

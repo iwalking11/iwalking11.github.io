@@ -12,9 +12,6 @@ tags:
 
 
 
-<font size=4>
-
-[toc]
 
 ### 1.React组件间通讯（数据传递方式）
 1. 父传子（props）
@@ -499,5 +496,3 @@ const onClick = () => {
 />
 ```
 
-
-</font>
