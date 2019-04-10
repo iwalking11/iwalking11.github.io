@@ -11,7 +11,8 @@ tags:
     - 模拟实现
 ---
 
-<font size=4>
+
+> “js模拟实现”
 
 ### 1.请你实现一个深克隆
 - 浅拷贝
@@ -379,4 +380,3 @@ Object.setPrototypeOf(Sub, Super)    // 继承父类的静态属性或方法
 ```
 
 
-</font>
