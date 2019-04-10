@@ -370,7 +370,7 @@ export const TabsContext = React.createContext();
 >     )
 >   }
 > }
-export default TabsProvider;
+> export default TabsProvider;
 
 
 ##### 3. 实现Tabs组件
