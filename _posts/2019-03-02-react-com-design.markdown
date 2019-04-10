@@ -353,7 +353,7 @@ export const TabsContext = React.createContext();
 ##### 2. 创建Provider
 
 ```
-class TabsProvider extends Component {
+<!-- class TabsProvider extends Component {
   state = {
       selected: this.props.selected
   }
@@ -370,7 +370,7 @@ class TabsProvider extends Component {
     )
   }
 }
-export default TabsProvider;
+export default TabsProvider; -->
 ```
 
 ##### 3. 实现Tabs组件
