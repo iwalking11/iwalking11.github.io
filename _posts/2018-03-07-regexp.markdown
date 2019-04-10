@@ -1,13 +1,12 @@
 ---
 layout:     post
 title:      "正则表达式"
-subtitle:   " \"Hello RegExp, Hello Blog\""
+subtitle:   " 正则表达式详解 "
 date:       2018-03-07 12:00:00
 author:     "iwalking11"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-	- js
   - 正则
 ---
 
