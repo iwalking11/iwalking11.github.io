@@ -8,6 +8,7 @@ header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
   - redux
+  - react
 ---
 
 
@@ -771,5 +772,3 @@ MobX 和 Flux、Redux 一样，都是和具体的前端框架无关的，也就�
 - [dva](https://dvajs.com/)
 - [动手实现 Redux](http://huziketang.mangojuice.top/books/react/lesson30)
 
-
-<font/>
