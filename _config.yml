@@ -14,7 +14,7 @@ future: true
 # SNS settings
 RSS: false
 weibo_username:     iwalking11
-zhihu_username:     iwalking11
+zhihu_username:     java-asm
 github_username:    iwalking11
 twitter_username:   iwalking11
 #facebook_username:  iwalking11
