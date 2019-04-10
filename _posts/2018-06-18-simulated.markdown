@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      "js模拟实现"
+subtitle:   " \"js模拟实现一些常用功能\""
+date:       2018-06-18 20:00:00
+author:     "iwalking11"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+	- js
+    - 模拟实现
+---
+
 <font size=4>
 
 ### 1.请你实现一个深克隆
