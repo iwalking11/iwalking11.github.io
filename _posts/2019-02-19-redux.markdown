@@ -7,8 +7,9 @@ author:     "iwalking11"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-	- Redux
+  - redux
 ---
+
 
 
 > “Redux”

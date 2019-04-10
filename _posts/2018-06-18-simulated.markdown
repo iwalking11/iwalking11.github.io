@@ -7,9 +7,10 @@ author:     "iwalking11"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-	- js
-    - 模拟实现
+  - js
+  - 模拟实现
 ---
+
 
 
 > “js模拟实现”
