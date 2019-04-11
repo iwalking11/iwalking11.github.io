@@ -352,26 +352,27 @@ export const TabsContext = React.createContext();
 
 ##### 2. 创建Provider
 
-> class TabsProvider extends Component {
-> state = {
->     selected: this.props.selected
-> }
-> render() {
->   return (
->     <TabsContext.Provider 
->       value={{
->         selected: this.state.selected,
->         handleClick: value => {this.setState({
->           selected: value
->         })}
->       }}>
->       {this.props.children}
->     </TabsContext.Provider>
->     )
->   }
-> }
-> export default TabsProvider;
-
+````
+ class TabsProvider extends React.Component {
+ state = {
+     selected: this.props.selected
+ }
+ render() {
+   return (
+     <TabsContext.Provider 
+       value={{
+         selected: this.state.selected,
+         handleClick: value => {this.setState({
+           selected: value
+         })}
+       }}>
+       {this.props.children}
+     </TabsContext.Provider>
+     )
+   }
+ }
+ export default TabsProvider;
+````
 
 ##### 3. 实现Tabs组件
 
