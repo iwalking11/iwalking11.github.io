@@ -343,7 +343,6 @@ const ThemeConsumer = ThemeContext.Consumer;
 ### 实现方式
 
 #### 1. 提供者(Provider)模式
-//github commit check会报错，代码就不贴了
 
 ##### 1. 创建一个Context
 
@@ -353,27 +352,7 @@ export const TabsContext = React.createContext();
 
 ##### 2. 创建Provider
 
-````
- class TabsProvider extends React.Component {
- state = {
-     selected: this.props.selected
- }
- render() {
-   return (
-     <TabsContext.Provider 
-       value={{
-         selected: this.state.selected,
-         handleClick: value => {this.setState({
-           selected: value
-         })}
-       }}>
-       {this.props.children}
-     </TabsContext.Provider>
-     )
-   }
- }
- export default TabsProvider;
-````
+//github commit check会报错，代码就不贴了
 
 ##### 3. 实现Tabs组件
 
