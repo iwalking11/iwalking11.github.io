@@ -343,6 +343,7 @@ const ThemeConsumer = ThemeContext.Consumer;
 ### 实现方式
 
 #### 1. 提供者(Provider)模式
+//github commit check会报错，代码就不贴了
 
 ##### 1. 创建一个Context
 
