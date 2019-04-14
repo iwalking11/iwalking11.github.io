@@ -1,6 +1,6 @@
-# Hux Blog
+# iwalking11 Blog
 
-### [View Live Hux Blog &rarr;](https://huangxuan.me)
+### [View Live iwalking11 Blog &rarr;](https://iwalking11.github.io/)
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
