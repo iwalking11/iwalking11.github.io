@@ -352,6 +352,8 @@ export const TabsContext = React.createContext();
 
 ##### 2. 创建Provider
 
+//github commit check会报错，代码就不贴了
+
 
 ##### 3. 实现Tabs组件
 

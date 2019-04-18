@@ -21,6 +21,7 @@ let newObj = {...obj};
 ```
 
 - 深拷贝
+
 ```
 
 let newObj = Json.parse(Json.stringfy(obj));
@@ -60,6 +61,7 @@ https://juejin.im/post/5abb55ee6fb9a028e33b7e0a
 > 4. 返回执行结果
 
 - 实现
+
 ```
 Function.prototype.myCall = function(context) {
     if (typeof this !== 'function') {
@@ -98,6 +100,7 @@ Function.prototype.myCall1 = function () {
 ```
 
 ### 3.手写实现Function.prototype.apply方法
+
 ```
 Function.prototype.myApply = function(context) {
     if (typeof this !== 'function') {
@@ -128,6 +131,7 @@ Function.prototype.myApply = function(context) {
 ```
 
 ### 4.手写实现Function.prototype.bind方法
+
 ```
 Function.prototype.myBind = function(context) {
     if (typeof this !== 'function') {
@@ -157,6 +161,7 @@ Function.prototype.myBind = function(context) {
 > 如果函数没有返回对象类型Object(包含Functoin, Array, Date, RegExg, Error)，那么new表达式中的函数调用会自动返回这个新的对象。
 
 - 代码
+
 ```
 function newfn() {
     let args = [...arguments];
@@ -218,12 +223,14 @@ function newOperator(ctor){
 
 
 ```
+
 ### 6. 防抖节流实现
 - 分析  
 防抖： 频繁触发的事件，停止出发一段时间后再执行事件；
 节流： 事件按照一定的频率触发
 
 - 防抖代码
+
 ```
 funciotn debounce(fn, wait) {
     let timer= null;
@@ -277,6 +284,7 @@ function debounce(func, wait, immediate) {
 ```
 
 - 节流代码
+
 ```
 function throttle(fn, wait) {
     let timer = null;
@@ -306,6 +314,7 @@ instanceof 主要的实现原理就是只要右边变量的 prototype 在左边�
 因此，instanceof 在查找的过程中会遍历左边变量的原型链，直到找到右边变量的 prototype，如果一直查到null，表明查找失败，返回 false。
 
 - 代码
+
 ```
 function instanceof(obj, Obj) {
     let proto = Object.getPrototypeOf(obj);
@@ -325,6 +334,7 @@ function instanceof(obj, Obj) {
 - ES3继承  
 利用 Parent.call(this) 执行“方法借用”，获取 Parent 的属性，继承实例属性和方法  
 利用一个空函数将 Person.prototype 加入原型链，继承原型属性和方法
+
 ```
 function Child() {
   Parent.call(this, "Bob");
@@ -339,9 +349,11 @@ function prototype(Child, parent) {
 // 当我们使用的时候：
 prototype(Child, Parent);
 ```
+
 - ES5继承  
 利用 Parent.call(this) 执行“方法借用”，获取 Parent 的属性  
 利用 ES5 增加的 Object.create 方法将 Parent.prototype 加入原型链
+
 ```
 function Child() {
   Parent.call(this, "Bob");
@@ -365,6 +377,7 @@ Child.prototype  = Object.create(Parent.prototype, {
 });
 
 ```
+
 - ES6继承  
 1.利用 ES6 增加的 class 和 extends 实现比以前更完善的继承;  
 2.通过Object.setPrototypeOf()来实现类的静态方法继承
