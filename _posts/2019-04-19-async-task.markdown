@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "正则表达式"
-subtitle:   " 正则表达式详解 "
+title:      "js异步流程历"
+subtitle:   " js异步流程的发展 "
 date:       2018-04-19 22:00:00
 author:     "iwalking11"
 header-img: "img/post-bg-2015.jpg"
@@ -222,6 +222,8 @@ promise的核心原理其实就是发布订阅模式，通过两个队列来缓�
 ### 8.多个异步任务依赖执行情况下，各种异步编程方式的区别
 
 ## 参考
-[异步编程的前世今生(异步流程历史)](https://zhuanlan.zhihu.com/p/33107664)
-[promise原理就是这么简单](https://juejin.im/post/5b9645c75188255c463669e9)
-[阮一峰 Generator 函数的异步应用](http://es6.ruanyifeng.com/#docs/generator-async)
+- [异步编程的前世今生(异步流程历史)](https://zhuanlan.zhihu.com/p/33107664)
+- [promise原理就是这么简单](https://juejin.im/post/5b9645c75188255c463669e9)
+- [阮一峰 Generator 函数的异步应用](http://es6.ruanyifeng.com/#docs/generator-async)
+- [JS的异步模式：1、回调函数；2、事件监听；3、观察者模式；4、promise对象](https://www.cnblogs.com/chengxs/p/6497575.html)
+- [谈谈ES6前后的异步编程](https://segmentfault.com/a/1190000015440630#articleHeader0)
