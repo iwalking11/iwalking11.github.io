@@ -1,13 +1,14 @@
 ---
 layout:     post
 title:      "js异步编程史"
-subtitle:   "js异步编程的发展"
-date:       2018-04-19 22:00:00
+subtitle:   " \"js异步编程的发展\""
+date:       2019-04-19 22:00:00
 author:     "iwalking11"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-	- 异步编程
+  - js
+  - 异步编程
 ---
 
 
@@ -224,3 +225,6 @@ promise的核心原理其实就是发布订阅模式，通过两个队列来缓�
 - [阮一峰 Generator 函数的异步应用](http://es6.ruanyifeng.com/#docs/generator-async)
 - [JS的异步模式：1、回调函数；2、事件监听；3、观察者模式；4、promise对象](https://www.cnblogs.com/chengxs/p/6497575.html)
 - [谈谈ES6前后的异步编程](https://segmentfault.com/a/1190000015440630#articleHeader0)
+
+
+
