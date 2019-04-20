@@ -1,16 +1,13 @@
 ---
 layout:     post
-title:      "js异步流程历"
-subtitle:   " js异步流程的发展 "
+title:      "js异步编程史"
+subtitle:   "js异步编程的发展"
 date:       2018-04-19 22:00:00
 author:     "iwalking11"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-	- 异步
-	- async
-	- promise
-  - generator
+	- 异步编程
 ---
 
 
